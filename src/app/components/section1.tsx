@@ -61,13 +61,13 @@ export const Children = () => (
             initial="hidden"
             animate="visible"
         >
-            <div style={{
-    display: 'flex',
-    flexWrap: 'wrap',
-    gap: '16px',
-    justifyContent: 'center',
-    padding: '16px',
-}}>
+            <Grid
+                pad="large"
+                columns={['small', 'small', 'small']}
+                justifyContent="center"
+                gap="medium"
+                responsive
+            >
              
                 {data.map((datum) => (
                     <motion.div key={datum.city} variants={fadeIn} >
@@ -103,7 +103,7 @@ export const Children = () => (
                         </Card>
                     </motion.div>
                 ))}
-            </div>
+            </Grid>
         </motion.div>
     </Grommet>
 );

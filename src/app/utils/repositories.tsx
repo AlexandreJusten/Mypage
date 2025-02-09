@@ -20,7 +20,8 @@ const themeCard = {
 const RepositoryCard = ({ repo }) => (
   <Card
   pad="medium"
-  width="medium"
+  width="300px"
+  height="140px"
   elevation="large"
   style={{
       borderRadius: '12px',
@@ -39,7 +40,7 @@ const RepositoryCard = ({ repo }) => (
   }}
   >
     <CardBody>
-      <Heading level={3} margin={{ top: "small", bottom: "small" }}>
+      <Heading level={3} size="20px" margin={{ top: "small", bottom: "small" }}>
         {repo.name}
       </Heading>
       <Text size="small" color="dark-4">
@@ -74,7 +75,7 @@ const RepositoriesGrid = () => {
   return (
     <Grommet theme={themeCard}>
       <Grid
-        columns={{ count: 2, size: "small" }}
+        columns={{ count: 4, size: "small" }}
         justify="center"
         responsive
         gap="20px"

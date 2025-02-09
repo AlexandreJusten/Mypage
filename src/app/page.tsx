@@ -51,11 +51,11 @@ export default function Home() {
         {/* Texto 'use client' à direita */}
           
 
-        <div id="section-2" className="max-h-[80vh] flex items-center justify-center ">
+        <div id="section-2" className="max-h-[800px] flex items-center justify-center ">
           {/* <h1 className="text-4xl font-bold">Div 3</h1> */}
           <Section2/>
         </div>
-        <div id="section-3" className="max-h-[80vh] flex items-center justify-center">
+        <div id="section-3" className="max-h-[1000px] flex items-center justify-center">
           {/* <h1 className="text-4xl font-bold">Div 4</h1> */}
           <Section3/>
           <Lottie
@@ -63,7 +63,7 @@ export default function Home() {
           loop={true}
           lottieRef={lottieRef}
           style={{
-            marginTop: "50vh",
+            marginTop: "380px",
             width: "110vw",
             marginLeft: "-10vw",
             height: "auto",

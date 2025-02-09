@@ -20,7 +20,7 @@ const themeCard = {
 const data = [
   { 
     title: 'Sobre',
-    content: `Sou Alexandre Justen, programador apaixonado por criar soluções inovadoras e escaláveis. Com experiência em ReactJS, Node.js, Spring Boot e Django, desenvolvo sistemas web e mobile com foco em performance e qualidade.
+    content: `Me chamo Alexandre Justen, programador apaixonado por criar soluções inovadoras e escaláveis. Com experiência em ReactJS, Node.js, Spring Boot e Django, desenvolvo sistemas web e mobile com foco em performance e qualidade.
 
 Além de ser professor de desenvolvimento de sistemas no SENAI, participei de projetos como a Vitrine Virtual da AMA e a adequação à LGPD na FAPESC. Sempre em busca de novos desafios, meu objetivo é aplicar tecnologias como ReactNative e Python para impactar positivamente os usuários.
 
@@ -124,7 +124,7 @@ export default function Section2() {
         style={{
           position: "absolute",
           top: "34%",
-          left: "81%",
+          left: "80%",
           transform: "translate(0%, -50%) rotate(90deg)",
           transformOrigin: "center",
           whiteSpace: "nowrap",
@@ -138,7 +138,7 @@ export default function Section2() {
           style={{
             height: "0.5px",
             background: "#656565",
-            width: "10vw",
+            width: "12vw",
           }}
         />
         <span
@@ -154,7 +154,7 @@ export default function Section2() {
           style={{
             height: "0.5px",
             background: "#656565",
-            width: "10vw",
+            width: "12vw",
           }}
         />
       </div>
