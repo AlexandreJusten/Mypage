@@ -36,7 +36,7 @@ export default function Home() {
           {Array.from({ length: 5 }).map((_, index) => (
             <a
               key={index}
-              href={`#section-${index + 1}`}
+              // href={`#section-${index + 1}`}
               className="w-4 h-4 rounded-full bg-gray-400 hover:bg-gray-600 transition-colors border-2 border-white"
               aria-label={`Ir para seção ${index + 1}`}
             />
