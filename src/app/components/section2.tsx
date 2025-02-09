@@ -20,9 +20,9 @@ const themeCard = {
 const data = [
   { 
     title: 'Sobre',
-    content: `Me chamo Alexandre Justen, programador apaixonado por criar soluções inovadoras e escaláveis. Com experiência em ReactJS, Node.js, Spring Boot e Django, desenvolvo sistemas web e mobile com foco em performance e qualidade.
+    content: `Programador apaixonado por criar soluções inovadoras e escaláveis. Com experiência em ReactJS, Node.js, Spring Boot e Django, desenvolvo sistemas web e mobile com foco em performance e qualidade.
 
-Além de ser professor de desenvolvimento de sistemas no SENAI, participei de projetos como a Vitrine Virtual da AMA e a adequação à LGPD na FAPESC. Sempre em busca de novos desafios, meu objetivo é aplicar tecnologias como ReactNative e Python para impactar positivamente os usuários.
+Além de ser professor de desenvolvimento de sistemas no SENAI, participei de projetos como a Vitrine Virtual da AMA e a adequação à LGPD na FAPESC. Sempre em busca de novos desafios, meu objetivo é aplicar tecnologia para impactar positivamente os usuários.
 
 Meu foco está em trabalho em equipe, comunicação eficaz e resolução de problemas, sempre com o desejo de aprender e evoluir.`,
     icon:''
