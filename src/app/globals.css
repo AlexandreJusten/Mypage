@@ -5,12 +5,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  overflow-x: hidden;
+
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
+    overflow-x: hidden;
   }
 }
 
@@ -18,4 +21,58 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+.tech-icon-container:hover .tech-icon {
+  transform: scale(1.2); /* Aumenta o tamanho do ícone para 1.5x */
+}
+
+/* Estilizando a rolagem */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1); /* Cor de fundo da trilha da rolagem */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(56, 56, 56, 0.7); /* Cor do polegar da rolagem */
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2); /* Borda suave ao redor do polegar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(125, 76, 219); /* Cor do polegar ao passar o mouse */
+}
+
+/* Adicionando uma transição suave ao overflow */
+.scroll-container {
+  max-height: 80vh; /* Limita a altura da área rolável */
+  overflow-y: auto; /* Habilita rolagem vertical */
+  transition: max-height 0.3s ease-in-out; /* Transição suave ao rolar */
+}
+
+/* Efeitos de rolagem ao passar o mouse */
+.scroll-container:hover::-webkit-scrollbar-thumb {
+  background-color: rgb(125, 76, 219); /* Cor ativa ao passar o mouse */
+}
+
+/* Ajustando o carrossel */
+.slick-dots {
+  bottom: -20px; /* Posiciona os pontos abaixo do carrossel */
+  display: block !important; /* Garante que os pontos sejam exibidos */
+}
+
+.slick-dots li button:before {
+  color: #ccc; /* Cor padrão das bolinhas */
+  font-size: 12px; /* Tamanho das bolinhas */
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgb(125, 76, 219); /* Cor da bolinha ativa */
 }
