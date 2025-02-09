@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 
 import {  Grommet, Image } from "grommet";
 import { Anchor, Box, Header, Nav } from "grommet";

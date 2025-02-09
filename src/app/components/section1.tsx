@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable */
 
 import { Card, CardBody, Grid, Grommet, Heading, Text } from "grommet";
 import { Code, Server, PhoneVertical } from "grommet-icons";

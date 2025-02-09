@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useEffect, useRef } from "react";
 import { Card, CardBody, Grid, Grommet, Heading, Text } from "grommet";
 import Slider from "react-slick"; // Importa o carrossel

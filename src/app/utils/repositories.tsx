@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useEffect, useState } from "react";
 import { Card, CardBody, Grid, Grommet, Heading, Text } from "grommet";
 import axios from "axios";

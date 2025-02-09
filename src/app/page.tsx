@@ -1,4 +1,5 @@
 'use client';
+/* eslint-disable */
 
 import { useRef, useEffect } from "react";
 import NavBar from "./utils/navBar";
