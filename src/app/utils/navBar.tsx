@@ -1,6 +1,6 @@
 "use client";
 
-import { grommet, Grommet, Image } from "grommet";
+import {  Grommet, Image } from "grommet";
 import { Anchor, Box, Header, Nav } from "grommet";
 import { useState } from "react";
 

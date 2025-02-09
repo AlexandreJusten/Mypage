@@ -1,8 +1,7 @@
 "use client";
 
 import { Card, CardBody, Grid, Grommet, Heading, Text } from "grommet";
-import { Box } from "grommet";
-import { useEffect, useRef, useState } from "react";
+
 
 const theme = {
     global: {

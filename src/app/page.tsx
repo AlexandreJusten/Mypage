@@ -8,8 +8,7 @@ import Section2 from "./components/section2";
 import Section3 from "./components/section3";
 import MyFooter from "./utils/myFooter";
 import Section4 from "./components/section4";
-import { motion } from "motion/react"
-import Section5 from "./components/section5";
+
 import animationData from "../../public/Animation7.json";
 
 export default function Home() {

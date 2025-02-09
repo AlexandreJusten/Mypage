@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Card, CardBody, Grid, Grommet, Heading, Text } from "grommet";
-import Lottie from "lottie-react";
-import animationData from "../../../public/Animation7.json";
+
 
 const theme = {
   global: {

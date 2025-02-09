@@ -1,12 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import { Card, CardBody, Grid, Grommet, Heading, Text } from "grommet";
 import Slider from "react-slick"; // Importa o carrossel
-import { Code, Device, PhoneVertical, Server } from "grommet-icons";
+import { Code, PhoneVertical, Server } from "grommet-icons";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Lottie from "lottie-react";
-import animationData from '../../../public/Animation7.json';
-import { size } from "polished";
+
 
 const theme = {
   global: {
