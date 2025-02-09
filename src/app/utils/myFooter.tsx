@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Grommet as GrommetIcon } from 'grommet-icons';
-import { Anchor, Box, Footer, Text } from 'grommet';
+import {  Box, Footer, Text } from 'grommet';
 
 // Component to render an anchor link
 
