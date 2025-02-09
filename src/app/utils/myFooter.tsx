@@ -5,9 +5,7 @@ import { Grommet as GrommetIcon } from 'grommet-icons';
 import { Anchor, Box, Footer, Text } from 'grommet';
 
 // Component to render an anchor link
-const FooterAnchor = ({ href, label }) => (
-  <Anchor href={href} size="small" color="white" label={label} />
-);
+
 
 // Footer content with links to GitHub, Dev.to, and email
 const FooterContent = () => (
