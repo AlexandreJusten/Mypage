@@ -52,15 +52,15 @@ const OnHeaderNav = () => {
               style={{ position: "relative", padding: "0 10px" }}
             >
               <Anchor
-                href={item.href}
+                // href={item.href}
                 label={item.label}
-                onClick={() => setActive(item.label)}
+                // onClick={() => setActive(item.label)}
                 style={{
                   fontWeight: active === item.label ? "bold" : "normal",
                   color: active === item.label ? "white" : "#bbb",
                 }}
               />
-              {active === item.label && (
+              {/* {active === item.label && (
                 <Box
                   style={{
                     position: "absolute",
@@ -71,7 +71,7 @@ const OnHeaderNav = () => {
                     background: "white",
                   }}
                 />
-              )}
+              )} */}
             </Box>
           ))}
         </Nav>
