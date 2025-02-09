@@ -35,6 +35,7 @@ export const Children = () => {
 
   return (
     <Grommet theme={themeCard}>
+      // @ts-ignore
       <Grid 
         pad="large" 
         columns={{ 

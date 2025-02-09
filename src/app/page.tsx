@@ -12,6 +12,7 @@ import Section4 from "./components/section4";
 
 import animationData from "../../public/Animation7.json";
 
+export const runtime ="edge"
 export default function Home() {
  const lottieRef = useRef(null);
  
